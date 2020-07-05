@@ -10,4 +10,4 @@ jobs:
       - run: |
           docker build -t cc447474/around .
           docker login -u="$DOCKERHUB_USERNAME" -p="$DOCKERHUB_PASSWORD"
-          docker push cchen152/around
+          docker push cc447474/around
